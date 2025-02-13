@@ -5,7 +5,7 @@ import Login from '../../Page/Login/Login.jsx';
 
 export default function RoutePublic() {
   return (
-    <Router> {/* 🔹 Asegurar que Router envuelve todo */}
+    <Router background="100%"> {/* 🔹 Asegurar que Router envuelve todo */}
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/Dashboard" element={<Dashboard />} />

@@ -1,21 +1,28 @@
 .login-container {
     width: 300px;
+    height: 100%;
     margin: 25px;
     padding: 80px;
     border-radius: 15px;
     background-color: lightblue;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    align-items: center;
+    
   }
   
   .input-group {
     margin-bottom: 15px;
     text-align: left;
+    font-family: 'comic san', sans-serif;
+    padding: 5px;
   }
   
   .input-group label {
     display: block;
     font-weight: bold;
+    padding: 8px;
+    
   }
   
   .input-group input {
@@ -23,6 +30,7 @@
     padding: 8px;
     border-radius: 15px;
     border: 1px solid #ccc;
+    
   }
   
   button {
