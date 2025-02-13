@@ -1,0 +1,14 @@
+.bar{
+  width: 100%;
+  background-color: black;
+ 
+  padding: auto;
+}
+
+.App-logo {
+  height: 50px;
+  pointer-events: none;
+  align-items:flex-end
+  
+  
+}
